@@ -1,0 +1,11 @@
+This module uses a modified version of the ready to use of DroidBox from
+https://code.google.com/p/droidbox. DroidBox uses the adb tools to communicate
+with the the emulator. Make sure that the Android SDK and the adb tools are
+installed for the user running the irma probe. 
+
+Before using the module, setup a new AVD targeting Android 4.1.2 and choose
+Nexus 4 as device as well as ARM as CPU type by running the android command.
+Download the images from the ready to use version of DroidBox from google
+code and put them in DroidBox_4.1.1/images/ .
+
+Once it is done, you should be able to analyse an application with this module.
