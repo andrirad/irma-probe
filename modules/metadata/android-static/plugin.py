@@ -49,7 +49,7 @@ class AndroidStaticPlugin(PluginBase):
         ModuleDependency(
             "androguard",
             help="Need Androguard to extract metadata. The version tested is"
-                 "the one labelled v2.0."
+                 "the commit labelled v2.0."
                  "See https://github.com/androguard/androguard"
                  "for more details about the installation"
         )
