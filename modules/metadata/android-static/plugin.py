@@ -48,9 +48,9 @@ class AndroidStaticPlugin(PluginBase):
     _plugin_dependencies_ = [
         ModuleDependency(
             "androguard",
-            help="Need Androguard to extract metadata. "
-                 "See https://github.com/androguard/androguard or "
-                 "https://code.google.com/p/androguard/wiki/Installation "
+            help="Need Androguard to extract metadata. The version tested is"
+                 "the one labelled v2.0."
+                 "See https://github.com/androguard/androguard"
                  "for more details about the installation"
         )
     ]
